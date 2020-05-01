@@ -1,0 +1,554 @@
+/* color stocks */
+:root {
+  --greenfromw3s: #4CAF50;
+  --matchboxcolorfromgetbootstrap: #7952b3;
+  --sienna: #a0522d;
+  --brown : 	#a52a2a;
+  --indianred: #cd5c5c;
+  --mediumvioletred: #c71585;
+  --palevioletred: #db7093;
+  --darkgreen: #006400;
+  --forestgreen: 	#228b22;
+  --chocolate : #d2691e;
+  --darkmagenta: #8b008b;
+  --dodgerblue: #1e90ff;
+  --royalblue: 	#4169e1;
+  --steelblue: 	#4682b4;
+  --mediumslateblue: #7b68ee;
+  --cornflowerblue : #6495ed;
+  --hotpink: 	#ff69b4;
+  --mediumorchid: #ba55d3;
+  --orchid: #da70d6;
+  --rebeccapurple: #663399;
+  --mediumpurple: 	#9370db;
+  --peru: #cd853f;
+  --goldenrod: #daa520;
+  --darksalmon: #e9967a;
+  --thistle: #d8bfd8;
+  --rosybrown: #bc8f8f;
+  --cornsilk : #fff8dc;
+  --slategrey: #708090;
+  --whitesmoke: #f5f5f5;
+  --tan: #D2B48C;
+  --saddlebrown: #8B4513;
+  --seashell: #FFF5EE;
+  --rosybrown: #BC8F8F;
+  --ghostwhite: #F8F8FF;
+  --floralwhite: #F8F8FF;
+  --gainsboro: #DCDCDC;
+  --lightgrey: #D3D3D3;
+  --teal: #008080;
+  --white: #FFFFFF;
+  --black: #000000;
+  --dimgray: #696969;
+  --gray: #808080;
+  --darkgrey: #a9a9a9;
+  --silver: #C0C0C0;
+  --transparentblue: rgba(0,0,255,0.3);
+}
+/* end of colors stock */
+
+/* Important */
+
+/* marquee  */
+/* <marquee behavior="scroll" direction="up" scrollamount="1">just passion</marquee> */
+/* .height-80{
+  min-height: 100vh;
+}
+.about-picture{
+  background:url("images/eagle500x625.jpeg")center/cover no-repeat fixed;
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+} */
+
+/* <!-- justify-content-center is horizontal alignment, align-items-center is vertical alignment -->
+    <i class="fas fa-home fa-3x"></i>
+    <i class="fas fa-ad fa-3x"></i>
+    <i class="fas fa-address-book fa-3x"></i>
+    <i class="fas fa-address-card fa-3x"></i>
+    <i class="fas fa-adjust fa-3x"></i>
+    <i class="fas fa-airfreshner fa-3x"></i>
+    <i class="fas fa-align-justify fa-3x"></i>
+    <i class="fas fa-align-center fa-3x"></i>
+    <i class="fas fa-align-left fa-3x"></i>
+    <i class="fas fa-align-right fa-3x"></i>
+    <i class="fas fa-ambulance fa-3x"></i>
+    <i class="fas fa-anchor fa-3x"></i>
+    <i class="fas fa-angle-double-down fa-3x"></i>
+    <i class="fas fa-angle-double-left fa-3x"></i>
+    <i class="fas fa-angle-double-right fa-3x"></i>
+    <i class="fas fa-arrow-alt-circle-down fa-3x"></i>
+    <i class="fas fa-arrow-alt-circle-left fa-3x"></i>
+    <i class="fas fa-arrow-alt-circle-right fa-3x"></i>
+    <i class="fas fa-arrow-alt-circle-up fa-3x"></i>
+    <i class="fas fa-archway fa-3x"></i>
+    <i class="fas fa-archive fa-3x"></i>
+    <i class="fas fa-apple-alt fa-3x"></i>
+    <i class="fas fa-angry fa-5x text-success"></i>
+    <i class="fas fa-angle-up fa-5x"></i>
+    <i class="fas fa-angle-down fa-5x"></i>
+    <i class="fas fa-angle-right fa-5x"></i>
+    <i class="fas fa-angle-left fa-5x"></i>
+    <i class="fas fa-arrow-left fa-5x"></i>
+    <i class="fas fa-arrow-right fa-5x"></i>
+    <i class="fas fa-arrow-up fa-5x"></i>
+    <i class="fas fa-arrows-alt fa-5x"></i>
+    <i class="fas fa-arrows-alt-h fa-5x"></i>
+    <i class="fas fa-arrows-alt-v fa-5x"></i>
+    <i class="fas fa-atlas fa-5x bg-warning"></i>
+    <i class="fas fa-at fa-3x"></i>
+    <i class="fas fa-atom fa-3x"></i>
+    <i class="fas fa-award fa-3x"></i>
+    <i class="fas fa-audio-description fa-3x"></i>
+    <i class="fas fa-baby fa-3x"></i>
+    <i class="fas fa-baby-carriage fa-3x text-danger"></i>
+    <i class="fas fa-backspace fa-3x"></i>
+    <i class="fas fa-backward fa-3x"></i>
+    <i class="fas fa-bacon fa-3x"></i>
+    <i class="fas fa-balance-scale fa-3x"></i>
+    <i class="fas fa-balance-scale-left fa-3x"></i>
+    <i class="fas fa-balance-scale-right fa-3x"></i>
+    <i class="fas fa-ban fa-3x"></i>
+    <i class="fas fa-band-aid fa-3x"></i>
+    <i class="fas fa-barcode fa-3x"></i>
+    <i class="fas fa-bars fa-3x"></i>
+    <i class="fas fa-basball-ball fa-3x"></i>
+    <i class="fas fa-basketball-ball fa-3x"></i>
+    <i class="fas fa-bath fa-3x"></i>
+    <i class="fas fa-battery-empty fa-3x text-info"></i>
+    <i class="fas fa-battery-full fa-3x"></i>
+    <i class="fas fa-battery-half fa-3x"></i>
+    <i class="fas fa-battery-quarter fa-3x"></i>
+    <i class="fas fa-bed fa-3x"></i>
+    <i class="fas fa-battle-net fa-3x"></i>
+    <i class="fas fa-beer fa-3x"></i>
+    <i class="fas fa-bell fa-3x"></i>
+    <i class="fas fa-bell-slash fa-3x"></i>
+    <i class="fas fa-bluetooth-b fa-3x"></i>
+    <i class="fas fa-blog fa-3x"></i>
+    <i class="fas fa-blind fa-3x"></i>
+    <i class="fas fa-birthday-cake fa-3x"></i>
+    <i class="fas fa-binoculars fa-3x"></i>
+    <i class="fas fa-bicycle fa-3x"></i>
+    <i class="fas fa-biking fa-3x"></i>
+    <i class="fas fa-book-open fa-3x"></i>
+    <i class="fas fa-book-reader fa-3x"></i>
+    <i class="fas fa-bookmark fa-3x"></i>
+    <i class="fas fa-bootstrap fa-3x"></i>
+    <i class="fas fa-border-all fa-3x"></i>
+    <i class="fas fa-bowling-ball fa-3x"></i>
+    <i class="fas fa-box fa-3x"></i>
+    <i class="fas fa-box-open fa-3x"></i>
+    <i class="fas fa-boxes fa-3x"></i>
+    <i class="fas fa-brain fa-3x"></i>
+    <i class="fas fa-briefcase fa-3x"></i>
+    <i class="fas fa-briefcase-medical fa-3x"></i>
+    <i class="fas fa-building fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i>
+    <i class="fas fa-buffer fa-3x"></i>
+    <i class="fas fa-bullseye fa-3x"></i>
+    <i class="fas fa- fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i> */
+
+    /* <!-- template of font awesome -->
+<!-- <!doctype html>
+<html>
+  <head>
+    Place your kit's code here -->
+    <!-- <script src="https://kit.fontawesome.com/3fdd578109.js" crossorigin="anonymous"></script>
+  </head> -->
+<!--
+  <body> -->
+    <!-- Ready to use Font Awesome. Activate interlock. Dynotherms - connected. Infracells - up. Icons are go! -->
+  <!-- </body>
+</html> -->
+<!-- end --> */
+
+/* media queries */
+
+/* @media screen and (min-width: 576px) {
+  body {
+    background: #442727;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background: #ffbcbc;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    background: #263f44;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background: #550a46;
+  }
+} */
+
+/* 1rem=16px */
+/*  end of Important */
+@import url("https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,400;0,500;1,500&display=swap")
+
+body {
+  font-family: 'Mali', cursive;
+  background: var(--white);
+  color: var(--black);
+}
+/* section title */
+.section-title--special {
+  background: var(--steelblue);
+  color: var(--white);
+  padding: 0.5rem 2rem;
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
+/* preloader */
+.preloader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--white);
+  z-index: 999;
+}
+.hidePreloader {
+  display: none !important;
+}
+/* navbar */
+.navbar {
+  background: var(--white);
+}
+.navbar-icon {
+  font-size: 2rem;
+  color: var(--dodgerblue);
+}
+.navbar-toggler {
+  outline-color: var(--dodgerblue)!important;
+}
+.nav-link {
+  color: var(--black);
+  text-transform: capitalize;
+}
+.nav-link:hover {
+  color: var(--dodgerblue);
+}
+.nav-icon {
+  font-size: 1.5rem;
+  color: var(--dodgerblue);
+  text-decoration: none !important;
+  transition-property: color;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+.nav-icon:hover {
+  color: var(--black);
+}
+/* header */
+.header {
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 50% 100%, 0 95%);
+  color: var(--white);
+  overflow: hidden;
+}
+.height-max {
+  min-height: calc(100vh - 76px);
+  background: url("img/white mercedez benz cars500x281jpeg.jpeg")center/cover no-repeat fixed;
+  animation-name: zoom;
+  animation-duration: 20s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2) translateX(-5%);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+.title-heading {
+  background: rgba(0, 0, 0, 0.4);
+  border-left: 0.3rem solid var(--dodgerblue);
+}
+.title {
+  font-weight: 700;
+  font-size: 1.9rem;
+}
+@media screen and (min-width:768px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+.title-icon {
+  color: var(--dodgerblue);
+  text-decoration: none !important;
+}
+.title-icon:hover {
+  color: var(--dodgerblue);
+  opacity: 0.6;
+}
+/* skills */
+.skills-icon {
+  font-size: 3rem;
+  color: var(--goldenrod);
+  background: var(--lightgrey);
+}
+.skills-icon:hover {
+  color: var(--goldenrod);
+}
+.skills-underline {
+  width: 4rem;
+  height: 0.3rem;
+  background: var(--dodgerblue);
+  margin: 1rem auto;
+}
+/* inventory */
+.inventory {
+  background: var(--lightgrey);
+}
+.car-card {
+  border-radius: 0 !important;
+}
+.car-img {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.car-value {
+  background: var(--dodgerblue);
+  color: var(--white);
+  clip-path: polygon(15% 0, 85% 0, 100% 100%, 0 100%);
+  transition: all 1s linear;
+}
+.car-value:hover {
+  clip-path: polygon(0% 0, 100% 0, 100% 100%, 0 100%);
+}
+/* question */
+.question {
+  background: url("img/steering wheel500x333jpeg.jpeg")center/cover fixed no-repeat;
+}
+.question-grey {
+  background: rgba(79, 109, 122, 0.75);
+}
+.question-yellow {
+  background: rgba(227, 181, 5, 0.75);
+}
+.question-icon {
+  font-size: 4rem;
+  color: var(--dodgerblue);
+  transition: all 1s ease-in-out;
+}
+.question-icon:hover {
+  transform: translateY(-10%);
+  color: var(--dodgerblue);
+}
+.question-info {
+  color: var(--white);
+}
+/* featured */
+.featured {
+  background: var(--lightgrey);
+}
+.featured-item {
+  background: var(--white);
+  border-radius: 0.5rem;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+.featured-item:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+.featured-icon {
+  font-size: 1.5rem;
+  color: var(--goldenrod);
+  cursor: pointer;
+  transition: 0.5s all ease-in-out;
+}
+.featured-icon:hover {
+  color: var(--dodgerblue);
+}
+.img-container {
+  background: var(--dodgerblue);
+  position: relative;
+  overflow: hidden;
+}
+.featured-photo {
+  transition: all 1s ease-in-out;
+}
+.img-container:hover .featured-photo {
+  transform: scale(1.3);
+  opacity: 0.5;
+}
+.featured-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 3rem;
+  transform: translate(-50%,-50%);
+  color: var(--black);
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+.featured-link:hover {
+  color: var(--white);
+}
+.img-container:hover .featured-link {
+  opacity: 1;
+}
+/* gallery */
+.gallery-item {
+  background: var(--goldenrod);
+  position: relative;
+  cursor: pointer;
+}
+.gallery-img {
+  transition: all 1s ease-in-out;
+}
+.gallery-item:hover .gallery-img {
+  opacity: 0.5;
+}
+.gallery-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  outline: 0.5rem solid var(--white);
+  outline-offset: -1rem;
+  transition: all 1s ease-in-out;
+  transform: scale(0);
+}
+.gallery-item:hover:after {
+  transform: scale(1);
+}
+/* contact section */
+.contact {
+  background:linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+    ) ,url("img/black mercedez benz car interior500x381jpeg.jpeg")center/cover fixed no-repeat;
+}
+.contact-input {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  background: transparent;
+  border-color: var(--goldenrod);
+  color: var(--goldenrod) !important;
+}
+.contact-input::placeholder {
+  color: var(--goldenrod);
+}
+.contact-input:focus {
+  background: transparent;
+  border-color: var(--goldenrod);
+}
+.contact-btn {
+  text-transform: uppercase;
+  color: var(--goldenrod);
+  border-color: var(--goldenrod);
+}
+.contact-btn:hover {
+  background: var(--goldenrod);
+  color: var(--black);
+}
+/* services section */
+.services {
+  position: relative;
+  min-height: 85vh;
+  max-width: 95vw;
+  margin: 0 auto;
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+}
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -3;
+}
+.video-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,255,0.3);
+  /* transparent blue above */
+  z-index: -2;
+}
+.service {
+  background: var(--black);
+  color: var(--white);
+  transition: all 1s ease-in-out;
+}
+.service:hover {
+  background: var(--white);
+  color: var(--black);
+  padding-left: 2.2rem !important;
+}
+.service-icon {
+  font-size: 4rem;
+  color: var(--goldenrod);
+}
+/* customer */
+.customer-card-body {
+  margin-top: -4rem !important;
+  color: var(--lightgrey);
+}
+.customer-img {
+  border: 0.4rem solid var(--white);
+}
+.customer-name {
+  color: var(--dodgerblue);
+  margin: 0.5rem;
+}
+.customer-icon {
+  font-size: 2rem;
+  color: var(--lightgrey);
+}
+.customer-quote {
+  max-width: 90%;
+}
+/* footer icons */
+.footer {
+  background: var(--black);
+}
+.footer-icon {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--goldenrod);
+  transition: all 1s ease-in-out;
+}
+.footer-icon:hover {
+  color: var(--dodgerblue);
+}
